@@ -1,0 +1,25 @@
+{
+  "name": "my-fullstack-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "server": "nodemon server.js",
+  "client": "cd client && npm start",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
