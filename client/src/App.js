@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/')
+    axios.get('https://tax-busj.onrender.com/')
       .then(response => setMessage(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
