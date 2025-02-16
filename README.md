@@ -147,5 +147,5 @@ MIT License
 
 ---
 
-For any issues, contact [your_email@example.com].
+For any issues, contact dhruvrastogi2004@gmail.com.
 
