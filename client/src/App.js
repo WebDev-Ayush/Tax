@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
+import TaxPage from './Pages/TaxPage';
+import HistoryPage from './Pages/HistoryPage';
+import Result from './Pages/Result';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -11,10 +15,11 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Full Stack App</h1>
-      <p>Backend says: {message}</p>
-    </div>
+    <Routes>
+      <Route path="/" element={<TaxPage />} />
+      <Route path="/history" element={<HistoryPage />} />
+      <Route path="/result" element={<Result />} />
+    </Routes>
   );
 }
 
