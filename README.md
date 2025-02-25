@@ -147,5 +147,5 @@ MIT License
 
 ---
 
-For any issues, contact dhruvrastogi2004@gmail.com.
+For any issues, contact ayushbisht0902@gmail.com.
 
